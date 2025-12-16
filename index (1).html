@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cálculo económico en economías centralmente planificadas</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #2b2d42;
+      --secondary: #4a6fa5;
+      --accent: #d90429;
+      --background: #f5f7fb;
+      --text: #2e2e2e;
+      --white: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--background);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: var(--white);
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.6rem;
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      max-width: 760px;
+      margin: auto;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 3rem 2rem;
+    }
+
+    section {
+      margin-bottom: 3.5rem;
+    }
+
+    section h2 {
+      color: var(--primary);
+      font-size: 1.9rem;
+      margin-bottom: 1.2rem;
+      border-left: 5px solid var(--accent);
+      padding-left: 0.8rem;
+    }
+
+    section p {
+      margin-bottom: 1rem;
+      text-align: justify;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.6rem;
+      margin-top: 1.8rem;
+    }
+
+    .card {
+      background-color: var(--white);
+      padding: 1.6rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 14px 32px rgba(0, 0, 0, 0.12);
+    }
+
+    .card h3 {
+      color: var(--secondary);
+      margin-bottom: 0.6rem;
+      font-size: 1.2rem;
+    }
+
+    .highlight {
+      background-color: var(--primary);
+      color: var(--white);
+      padding: 2.5rem;
+      border-radius: 14px;
+    }
+
+    .highlight h2 {
+      color: var(--white);
+      border-left-color: var(--white);
+    }
+
+    .highlight p {
+      font-size: 1.05rem;
+      opacity: 0.95;
+    }
+
+    .timeline {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .event {
+      background: var(--white);
+      padding: 1.4rem;
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: var(--primary);
+      color: var(--white);
+      text-align: center;
+      padding: 1.6rem;
+      font-size: 0.9rem;
+    }
+
+    footer span {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cálculo económico en economías centralmente planificadas</h1>
+    <p>
+      Un debate central de la teoría económica sobre la viabilidad de asignar eficientemente los
+      recursos sin precios de mercado.
+    </p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Introducción</h2>
+      <p>
+        El problema del cálculo económico surge cuando se analiza cómo una economía puede asignar
+        racionalmente sus recursos productivos sin el uso de precios formados en mercados libres.
+        En las economías centralmente planificadas, esta tarea recae en una autoridad central.
+      </p>
+    </section>
+
+    <section>
+      <h2>¿Qué es el cálculo económico?</h2>
+      <p>
+        El cálculo económico es el proceso mediante el cual los agentes comparan costos y
+        beneficios para decidir qué, cómo y cuánto producir. En economías de mercado, este
+        cálculo se basa en precios monetarios que reflejan información dispersa sobre escasez y
+        preferencias.
+      </p>
+    </section>
+
+    <section>
+      <h2>El problema en economías planificadas</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Ausencia de precios reales</h3>
+          <p>
+            Sin mercados libres para bienes de capital, los precios no reflejan escasez relativa
+            ni valoraciones sociales.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Información dispersa</h3>
+          <p>
+            El conocimiento relevante está fragmentado entre millones de individuos y no puede
+            centralizarse completamente.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Complejidad técnica</h3>
+          <p>
+            La enorme cantidad de combinaciones productivas vuelve impracticable el cálculo
+            centralizado.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Autores y aportes teóricos</h2>
+      <div class="timeline">
+        <div class="event">
+          <h3>Ludwig von Mises</h3>
+          <p>
+            Argumentó que el socialismo carece de un método racional de cálculo económico al
+            eliminar los precios de mercado.
+          </p>
+        </div>
+        <div class="event">
+          <h3>Friedrich A. Hayek</h3>
+          <p>
+            Destacó el papel del sistema de precios como mecanismo de transmisión de información.
+          </p>
+        </div>
+        <div class="event">
+          <h3>Oskar Lange</h3>
+          <p>
+            Propuso un modelo de socialismo de mercado para responder al desafío del cálculo
+            económico.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlight">
+      <h2>Relevancia actual</h2>
+      <p>
+        El debate sobre el cálculo económico sigue siendo relevante en la discusión sobre el
+        alcance del Estado, la planificación, el uso de big data y la inteligencia artificial en
+        la asignación de recursos.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>© 2025 · Teoría Económica y Sistemas de Planificación</span>
+  </footer>
+
+</body>
+</html>
